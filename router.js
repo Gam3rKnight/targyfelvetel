@@ -4,7 +4,7 @@ var router = new express.Router;
 
 function ensureAuthenticated(req, res, next) {
     if (req.isAuthenticated()) { return next(); }
-    req.flash('error', 'A kért tartalom megtekintéséhez be kell jelentekzni!');
+    req.flash('error', 'A kért tartalom megtekintéséhez be kell jelentkezni!');
     res.redirect('/login/login');
 }
 
