@@ -28,7 +28,7 @@ Megvalósítani egy tantárgyak felvételére, kezelésére szolgáló webes tec
 
 ##Használat eseti diagram:
     
-    ![Használat eseti diagram](blob/master/docs/images/haszndiag.png)
+    ![Használat eseti diagram](https://github.com/Gam3rKnight/targyfelvetel/blob/master/docs/images/haszndiag.png)
     
 #Tervezés
 ----------
@@ -68,25 +68,25 @@ Bejelentkezett:
     
 Főoldal:
 
-    ![Főoldal](blob/master/docs/images/foold.jpg)
+    ![Főoldal](https://github.com/Gam3rKnight/targyfelvetel/blob/master/docs/images/foold.jpg)
 
 Regisztráló oldal:
 
-    ![Listázó oldal](blob/master/docs/images/reg.jpg)
+    ![Listázó oldal](https://github.com/Gam3rKnight/targyfelvetel/blob/master/docs/images/reg.jpg)
     
 ##Adatmodell
 
-    ![Adatmodell](blob/master/docs/images/adat.png)
+    ![Adatmodell](https://github.com/Gam3rKnight/targyfelvetel/blob/master/docs/images/adat.png)
     
 ##Adatbázis terv
 
-    ![Adatbázis terv](blob/master/docs/images/adatb.png)
+    ![Adatbázis terv](https://github.com/Gam3rKnight/targyfelvetel/blob/master/docs/images/adatb.png)
     
 ##Állapot diagram
 
 Új tárgy felvétele:
 
-    ![Állapot diagram](blob/master/docs/images/allapot.png)
+    ![Állapot diagram](https://github.com/Gam3rKnight/targyfelvetel/blob/master/docs/images/allapot.png)
     
 #Felhasználói dokumentáció
 ---------------------------
