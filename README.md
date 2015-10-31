@@ -67,25 +67,25 @@ Bejelentkezett:
     
 Főoldal:
 
-    ![Főoldal](https://github.com/Gam3rKnight/targyfelvetel/blob/master/docs/images/foold.jpg)
+    ![Főoldal](docs/images/foold.jpg)
 
 Regisztráló oldal:
 
-    ![Listázó oldal](https://github.com/Gam3rKnight/targyfelvetel/blob/master/docs/images/reg.jpg)
+    ![Listázó oldal](docs/images/reg.jpg)
     
 ##Adatmodell
 
-    ![Adatmodell](https://github.com/Gam3rKnight/targyfelvetel/blob/master/docs/images/adat.png)
+    ![Adatmodell](docs/images/adat.png)
     
 ##Adatbázis terv
 
-    ![Adatbázis terv](https://github.com/Gam3rKnight/targyfelvetel/blob/master/docs/images/adatb.png)
+    ![Adatbázis terv](docs/images/adatb.png)
     
 ##Állapot diagram
 
 Új tárgy felvétele:
 
-    ![Állapot diagram](https://github.com/Gam3rKnight/targyfelvetel/blob/master/docs/images/allapot.png)
+    ![Állapot diagram](docs/images/allapot.png)
     
 #Felhasználói dokumentáció
 ---------------------------
