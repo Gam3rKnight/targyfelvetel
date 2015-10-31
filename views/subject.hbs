@@ -1,0 +1,26 @@
+<h1>Tárgy adatai</h1>
+<table class="table table-striped">
+    <tr>
+        <th>A tárgy neve</th>
+        <td>{{subject.name}}</td>
+    </tr>
+    <tr>
+        <th>A tárgy leírása</th>
+        <td>{{subject.leiras}}</td>
+    </tr>
+    <tr>
+        <th>A tárgy oktatója</th>
+        <td>{{subject.teacher}}</td>
+    </tr>
+    <tr>
+        <th>A tárgy kredit értéke</th>
+        <td>{{subject.credit}}</td>
+    </tr>
+</table>
+<div class="form-group">
+  <div class="col-lg-12">
+    <a href="/list" class="btn btn-default pull-left">Vissza</a>
+    <a href="/edit/{{subject.id}}" class = "btn btn-primary pull-right">Szerkesztés</a>
+    <a href="/delete/{{subject.id}}" class="btn btn-danger pull-right">Törlés</a>
+  </div>
+</div>

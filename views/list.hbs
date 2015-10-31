@@ -1,0 +1,40 @@
+<h1>Tárgyak listája</h1>
+<form class="form-horizontal col-lg-8 col-lg-offset-2"
+      method="get" action="/list">
+    <div class="form-group">
+      <div class="col-lg-10">
+        <input type="search" class="form-control" 
+               name="kereses" id="kereses" value="{{kereses}}"
+               placeholder="Írja le, hogy milyen tárgyat keres..."></textarea>
+      </div>
+      <div class="col-lg-2">
+            <button type="submit" class="btn btn-info pull-left">
+                <span class="glyphicon glyphicon-search"></span>
+            </button>
+      </div>
+    </div>
+</form>
+<table class="table table-striped">
+    <tr>
+        <th>Tárgy neve</th>
+        <th>Tárgy leírása</th>
+        <th>Tárgy oktatója</th>
+        <th>Tárgy kredit értéke</th>
+    </tr>
+    {{#each targyak as |subject|}}
+    <tr>
+        <td>{{subject.name}}</td>
+        <td>{{subject.leiras}}</td>
+        <td>{{subject.teacher}}</td>
+        <td>{{subject.credit}}</td>
+        <td class="text-right">
+            <a class="btn btn-sm btn-info" href="/subject/{{subject.id}}">
+                <span class="glyphicon glyphicon-eye-open"></span>
+            </a>
+             <a class="btn btn-sm btn-danger" href="/delete/{{subject.id}}">
+                <span class="glyphicon glyphicon-remove"></span>
+             </a>
+      </td>
+    </tr>
+    {{/each}}
+</table> 

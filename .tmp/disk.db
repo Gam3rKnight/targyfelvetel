@@ -1,0 +1,146 @@
+{
+  "data": {
+    "student_subjects__subject_subjects_subject": [],
+    "student": [],
+    "subject": [],
+    "user": [
+      {
+        "surname": "valami",
+        "forename": "valami",
+        "neptun": "valami",
+        "password": "$2a$10$udPEk8oL3ufAlznkXVsuMuP2MdzTKU1zO2Ud7cM83mWfs.SY0Zbjy",
+        "createdAt": "2015-10-29T13:53:48.278Z",
+        "updatedAt": "2015-10-29T13:53:48.278Z",
+        "id": 1
+      },
+      {
+        "neptun": "v",
+        "password": "$2a$10$nRPW.fbJOq7gDtW5xy.MA.WYTw38OxPAdQ..TejKw.ELgxd1cZMfe",
+        "surname": "v",
+        "forename": "v",
+        "createdAt": "2015-10-29T15:46:16.166Z",
+        "updatedAt": "2015-10-29T15:46:16.184Z",
+        "id": 2
+      }
+    ]
+  },
+  "schema": {
+    "student_subjects__subject_subjects_subject": {
+      "id": {
+        "primaryKey": true,
+        "unique": true,
+        "autoIncrement": true,
+        "type": "integer"
+      },
+      "student_subjects": {
+        "type": "integer",
+        "foreignKey": true,
+        "references": "student",
+        "on": "id",
+        "via": "subject_subjects_subject"
+      },
+      "subject_subjects_subject": {
+        "type": "integer",
+        "foreignKey": true,
+        "references": "subject",
+        "on": "id",
+        "via": "student_subjects"
+      }
+    },
+    "student": {
+      "surename": {
+        "type": "string"
+      },
+      "forname": {
+        "type": "string"
+      },
+      "password": {
+        "type": "string"
+      },
+      "neptun": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "subject": {
+      "name": {
+        "type": "string"
+      },
+      "leiras": {
+        "type": "string"
+      },
+      "teacher": {
+        "type": "string"
+      },
+      "credit": {
+        "type": "string"
+      },
+      "user": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "user"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "neptun": {
+        "type": "string",
+        "unique": true
+      },
+      "password": {
+        "type": "string"
+      },
+      "surname": {
+        "type": "string"
+      },
+      "forename": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "subject": {
+      "id": 12
+    },
+    "student": {},
+    "student_subjects__subject_subjects_subject": {},
+    "user": {
+      "id": 2
+    }
+  }
+}
