@@ -28,7 +28,7 @@ Megvalósítani egy tantárgyak felvételére, kezelésére szolgáló webes tec
 
 ##Használat eseti diagram:
     
-    ![Használat eseti diagram](./docs/images/haszndiag.png)
+    ![Használat eseti diagram](https://github.com/Gam3rKnight/targyfelvetel/docs/images/haszndiag.png)
     
 #Tervezés
 ----------
