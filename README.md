@@ -3,6 +3,7 @@
 
 ##Funkcionális követelmények
 ------------------------------
+
 Megvalósítani egy tantárgyak felvételére, kezelésére szolgáló webes technológiákkal fejlesztett alkalmazást. Elvárt követelmények aminek tartalmaznia kell:
 
     * legalább két modellt, egy-sok kapcsolatban
@@ -16,6 +17,7 @@ Megvalósítani egy tantárgyak felvételére, kezelésére szolgáló webes tec
     * közzététel Herokun
 
 ##Nem funkcionális követelmények
+   
     * Jól átlátható, ergonómikus kezelőfelület
     * Jelszavak titkosított tárolása
     * Bővíthatőség
@@ -26,7 +28,7 @@ Megvalósítani egy tantárgyak felvételére, kezelésére szolgáló webes tec
 
 ##Használat eseti diagram:
     
-    ![Használat eseti diagram](docs/images/haszndiag.png)
+    [Használat eseti diagram](docs/images/haszndiag.png)
     
 #Tervezés
 ----------
@@ -66,19 +68,19 @@ Bejelentkezett:
     
 Főoldal:
 
-    ![Főoldal](docs/image/foold.jpg)
+    [Főoldal](docs/image/foold.jpg)
 
 Regisztráló oldal:
 
-    ![Listázó oldal](docs/image/reg.jpg)
+    [Listázó oldal](docs/image/reg.jpg)
     
 ##Adatmodell
 
-    ![Adatmodell](docs/image/adat.png)
+    [Adatmodell](docs/image/adat.png)
     
 ##Adatbázis terv
 
-    ![Adatbázis terv](docs/image/adatb.png)
+    [Adatbázis terv](docs/image/adatb.png)
     
 ##Állapot diagram
 
