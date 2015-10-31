@@ -28,7 +28,7 @@ Megvalósítani egy tantárgyak felvételére, kezelésére szolgáló webes tec
 
 ##Használat eseti diagram:
     
-    ![Használat eseti diagram](docs/images/haszndiag.png)
+    ![Használat eseti diagram](blob/master/docs/images/haszndiag.png)
     
 #Tervezés
 ----------
@@ -68,25 +68,25 @@ Bejelentkezett:
     
 Főoldal:
 
-    ![Főoldal](docs/images/foold.jpg)
+    ![Főoldal](blob/master/docs/images/foold.jpg)
 
 Regisztráló oldal:
 
-    ![Listázó oldal](docs/images/reg.jpg)
+    ![Listázó oldal](blob/master/docs/images/reg.jpg)
     
 ##Adatmodell
 
-    ![Adatmodell](docs/images/adat.png)
+    ![Adatmodell](blob/master/docs/images/adat.png)
     
 ##Adatbázis terv
 
-    ![Adatbázis terv](docs/images/adatb.png)
+    ![Adatbázis terv](blob/master/docs/images/adatb.png)
     
 ##Állapot diagram
 
 Új tárgy felvétele:
 
-    ![Állapot diagram](docs/images/allapot.png)
+    ![Állapot diagram](blob/master/docs/images/allapot.png)
     
 #Felhasználói dokumentáció
 ---------------------------
