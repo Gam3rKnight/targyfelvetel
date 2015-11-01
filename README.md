@@ -27,7 +27,8 @@ Megvalósítani egy tantárgyak felvételére, kezelésére szolgáló webes tec
     * hallgató: tárgyat hozzáadhat, módosíthat illetve törölhet és kilistázhatja az eddig tárgyolt tárgyakat
 
 ##Használat eseti diagram:
-    ![Használat eseti diagram](docs/images/haszndiag.png)
+
+![Használat eseti diagram](docs/images/haszndiag.png)
     
 #Tervezés
 ----------
