@@ -68,25 +68,25 @@ Bejelentkezett:
     
 Főoldal:
 
-    ![Főoldal](docs/images/foold.jpg)
+![Főoldal](docs/images/foold.jpg)
 
 Regisztráló oldal:
 
-    ![Listázó oldal](docs/images/reg.jpg)
+![Listázó oldal](docs/images/reg.jpg)
     
 ##Adatmodell
 
-    ![Adatmodell](docs/images/adat.png)
+![Adatmodell](docs/images/adat.png)
     
 ##Adatbázis terv
 
-    ![Adatbázis terv](docs/images/adatb.png)
+![Adatbázis terv](docs/images/adatb.png)
     
 ##Állapot diagram
 
 Új tárgy felvétele:
 
-    ![Állapot diagram](docs/images/allapot.png)
+![Állapot diagram](docs/images/allapot.png)
     
 #Felhasználói dokumentáció
 ---------------------------
