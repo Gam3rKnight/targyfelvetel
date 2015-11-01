@@ -68,7 +68,7 @@ Bejelentkezett:
     
 Főoldal:
 
-![Főoldal](docs/images/foold.jpg)
+![Főoldal](docs/images/fooldal.jpg)
 
 Regisztráló oldal:
 
